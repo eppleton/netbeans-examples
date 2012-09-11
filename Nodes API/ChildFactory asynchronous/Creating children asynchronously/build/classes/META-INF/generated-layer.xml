@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="de_eppleton_nbexamples_nodes_async">
+                <file name="NodeDisplayer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//de.eppleton.nbexamples.nodes.async//NodeDisplayer//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="de">
+                <folder name="eppleton">
+                    <folder name="nbexamples">
+                        <folder name="nodes">
+                            <folder name="async">
+                                <file name="NodeDisplayerTopComponent">
+                                    <!--de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//de_eppleton_nbexamples_nodes_async/NodeDisplayer.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="de_eppleton_nbexamples_nodes_async">
+                <file name="NodeDisplayer.instance">
+                    <!--de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="de-eppleton-nbexamples-nodes-async-NodeDisplayerTopComponent.shadow">
+                <!--de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/de-eppleton-nbexamples-nodes-async-NodeDisplayerTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="NodeDisplayerTopComponent.settings">
+                <!--de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="NodeDisplayerTopComponent.wstcref">
+                    <!--de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="NodeDisplayerTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="de-eppleton-nbexamples-nodes-async-NodeDisplayerTopComponent.instance">
+                <!--de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="de.eppleton.nbexamples.nodes.async.NodeDisplayerTopComponent"/>
+                <attr name="preferredID" stringvalue="NodeDisplayerTopComponent"/>
+                <attr
+                    bundlevalue="de.eppleton.nbexamples.nodes.async.Bundle#CTL_NodeDisplayerAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

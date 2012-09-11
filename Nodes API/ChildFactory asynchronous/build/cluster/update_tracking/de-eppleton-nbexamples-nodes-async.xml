@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="de.eppleton.nbexamples.nodes.async">
+    <module_version install_time="1347015344990" last="true" origin="installer" specification_version="1.0">
+        <file crc="1601248366" name="config/Modules/de-eppleton-nbexamples-nodes-async.xml"/>
+        <file crc="3158862134" name="modules/de-eppleton-nbexamples-nodes-async.jar"/>
+    </module_version>
+</module>
