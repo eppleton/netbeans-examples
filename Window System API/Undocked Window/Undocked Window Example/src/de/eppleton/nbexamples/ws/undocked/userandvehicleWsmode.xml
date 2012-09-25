@@ -4,7 +4,7 @@
        "http://www.netbeans.org/dtds/mode-properties2_0.dtd">
 <mode version="2.0">
     <name unique="userandvehicle" />
-    <kind type="view" />
+    <kind type="editor" />
     <state type="separated" />
     <constraints>
         <path orientation="horizontal" number="0" weight="1" />
