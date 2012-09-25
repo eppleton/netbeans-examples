@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.eppleton.de/schemas/sample"
+           elementFormDefault="qualified">
+    <xs:element name="sample" type="xs:string"/>
+</xs:schema>
